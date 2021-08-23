@@ -1,0 +1,16 @@
+@import './../../style/index.scss';
+
+.breadcrumb-wrap {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+}
+.ant-breadcrumb {
+  color: rgba(0, 0, 0, 0.45);
+  background: $white;
+  display: inline-block;
+}
+
+.ant-breadcrumb-link:last-child {
+  color: rgba(0, 0, 0, 0.65);
+}
